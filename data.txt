@@ -91,14 +91,5 @@ CREATE TABLE Student (
     Age INT
 );
 
-Evaluation Criteria Mapping
-
-| Criteria                   | Marks | How Addressed                                                      |
-| -------------------------- | ----- | ------------------------------------------------------------------ |
-| Content Accuracy and Depth | 10    | Detailed comparisons, explanations, and examples included.         |
-| Research Effort            | 10    | Covers DBMS, types, cloud, engines, migration, schemas.            |
-| Organization & Clarity     | 5     | Structured with headings and tables.                               |
-| Visuals and Mind Map       | 5     | Mind map concept included, can be drawn digitally.                 |
-| GitHub Submission          | 5     | Ready to create a repo “Database Course Documentation” and upload. |
 
 
