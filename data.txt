@@ -6,3 +6,19 @@
 | **Relationships**   | No formal relationships; connections between data must be handled manually. | Supports relationships using primary keys, foreign keys, and joins.         |
 | **Example Usage**   | Simple address books, CSV logs, small-scale apps.                           | Banking systems, e-commerce platforms, hospital management systems.         |
 | **Drawbacks**       | Difficult to maintain, error-prone, poor scalability.                       | Requires more setup and design knowledge, slightly more complex management. |
+
+
+Q3
+Roles in a Database System
+
+System Analyst – Analyzes business requirements and recommends database solutions.
+
+Database Designer – Designs the logical and physical database schema.
+
+Database Developer – Implements database structures, queries, and stored procedures.
+
+DBA (Database Administrator) – Maintains database performance, security, and backups.
+
+Application Developer – Develops software applications that interact with the database.
+
+BI Developer (Business Intelligence) – Creates reports and dashboards from database data for decision-making.
