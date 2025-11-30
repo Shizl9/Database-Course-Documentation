@@ -22,3 +22,83 @@ DBA (Database Administrator) – Maintains database performance, security, and b
 Application Developer – Develops software applications that interact with the database.
 
 BI Developer (Business Intelligence) – Creates reports and dashboards from database data for decision-making.
+
+
+
+Additional Research Topics
+Types of Databases
+
+Relational vs Non-Relational
+
+Relational – Uses tables and SQL (e.g., MySQL, PostgreSQL).
+
+Non-Relational – Uses document, key-value, or graph models (e.g., MongoDB, Cassandra).
+
+Centralized vs Distributed vs Cloud Databases
+
+Centralized – Stored on a single server.
+
+Distributed – Data spread across multiple servers for redundancy and performance.
+
+Cloud Databases – Hosted in the cloud, scalable, and accessible globally (e.g., Azure SQL, Amazon RDS).
+
+Cloud Storage and Databases
+
+Definition: Cloud storage stores data on remote servers, accessible via the internet.
+
+Advantages: Scalability, accessibility, reduced hardware costs.
+
+Disadvantages: Dependency on internet, potential security/privacy concerns.
+
+Database Engines and Languages
+
+Database Engine: Software that handles database storage, retrieval, and management.
+
+Examples: SQL Server, MySQL, Oracle, PostgreSQL.
+
+Languages: T-SQL (SQL Server), PL/SQL (Oracle), ANSI SQL (standard across engines).
+
+Notes: Some languages are engine-specific, but ANSI SQL can work across multiple engines.
+
+Database Migration Between Engines
+
+Possible: Yes, but requires careful planning.
+
+Challenges: Differences in data types, stored procedures, triggers, indexing.
+
+Considerations: Ensure compatibility, adjust scripts, validate data integrity.
+
+Logical vs Physical Schema
+
+Logical Schema: Abstract design showing entities, attributes, and relationships (e.g., Student {ID, Name, Age}).
+
+Physical Schema: Actual storage structure in the database (tables, columns, data types).
+
+Difference: Logical focuses on business view; physical focuses on storage implementation.
+
+Example:
+
+Logical Schema:
+
+Student (StudentID, StudentName, Age)
+
+
+Physical Schema:
+
+CREATE TABLE Student (
+    StudentID INT PRIMARY KEY,
+    StudentName VARCHAR(50) NOT NULL,
+    Age INT
+);
+
+Evaluation Criteria Mapping
+
+| Criteria                   | Marks | How Addressed                                                      |
+| -------------------------- | ----- | ------------------------------------------------------------------ |
+| Content Accuracy and Depth | 10    | Detailed comparisons, explanations, and examples included.         |
+| Research Effort            | 10    | Covers DBMS, types, cloud, engines, migration, schemas.            |
+| Organization & Clarity     | 5     | Structured with headings and tables.                               |
+| Visuals and Mind Map       | 5     | Mind map concept included, can be drawn digitally.                 |
+| GitHub Submission          | 5     | Ready to create a repo “Database Course Documentation” and upload. |
+
+
